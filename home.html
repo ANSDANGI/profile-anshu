@@ -37,8 +37,24 @@
             padding: 20px;
         }
         ul li{
-            list-style-type: square;
+            list-style-type: none;
         }
+        body{
+            background-image: url(asset/pexels-batın-özen-8040961.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        li::before{
+            content: "✅";
+
+
+        }
+        #list li:hover{
+                 background-color: blue;
+                 color: pink;
+        }
+        
+
     </style>
 </head>
 <body>
